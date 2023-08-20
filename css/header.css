@@ -1,0 +1,41 @@
+.header__nav-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	height: 100px;
+
+}
+
+.header__nav-logo-img {
+	max-width: 160px;
+}
+
+.header__nav-container {
+	display: flex;
+	align-items: center;
+	/* background-color: blueviolet; */
+	height: 100px;
+	margin: 0;
+	padding: 0;
+}
+
+.header__box {
+	background-image: url(../img/sf-about-hero3.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	/* Изменено на scroll */
+	background-size: cover;
+	background-position: left;
+	/* height: 0.1vh; */
+
+
+	display: flex;
+	/* Добавлено */
+	flex-direction: column;
+	margin: 0;
+	/* Изменено на 0 */
+	padding-top: 100px;
+	padding-bottom: 500px;
+}
